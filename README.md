@@ -14,24 +14,32 @@ Efficiency: Optimized for fast query response times even with large datasets, an
 Getting Started
 
 Prerequisites:
+
 Python 3.x
 Jupyter Notebook
 Required Python libraries (see requirements.txt)
-Setup: Clone the repository, install dependencies, and open the notebook for step-by-step execution.
+
+Setup: 
+
+Clone the repository, install dependencies, and open the notebook for step-by-step execution.
 Running the Code: The Jupyter Notebook provides the implementation details, code, and sample data. Execute each cell to simulate the FLPSI protocol and visualize results.
+
 Project Files
 
 FLPSI_Notebook.ipynb: Main notebook with code, explanations, and visualizations.
 sample_data/: Sample biometric data with simulated noise.
 README.md: Project overview and setup guide.
+
 Results
 
 Average Runtime per Query: 0.2773 seconds
 Average Matches per Query: Demonstrates both successful matches and potential edge cases.
+
 Project Limitations
 
 Noise Threshold: Higher noise levels may lead to false matches, requiring future tuning.
 Scalability: Efficient with large datasets, but further optimization can improve performance.
+
 Future Research
 
 Refining threshold parameters for specific biometric datasets.
